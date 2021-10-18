@@ -1,0 +1,64 @@
+{
+  "detail": [
+    {
+      "name": "Cardio Solution",
+      "content": {
+        "description": "Explore our comprehensive cardiovascular service line solution designed to meet the specific needs of your comminity",
+        "id": "1"
+      },
+      "picture": {
+        "thumbnail": "https://image.freepik.com/free-photo/young-woman-suffering-breast-cancer-talking-with-her-doctor_23-2148992311.jpg"
+      }
+    },
+    {
+      "name": "Labratory Analysis",
+      "content": {
+        "description": "Labratory analysis means a test perform by a labratory on body fluid, tissue or concentration of various substance in the human body",
+        "id": "2"
+      },
+      "picture": {
+        "thumbnail": "https://image.freepik.com/free-photo/examining-sample-with-microscope_1098-18424.jpg"
+      }
+    },
+    {
+      "name": "General Dentists",
+      "content": {
+        "description": "General dentists offer preventive and restorative services, such as x-rays, teeth cleanings, cavity fillings, and sealants. Unlike specialists, who focus on one specific area of dentistry.",
+        "id": "3"
+      },
+      "picture": {
+        "thumbnail": "https://image.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg"
+      }
+    },
+    {
+      "name": "Cancer Service",
+      "content": {
+        "description": "We give patients to the world class cancer healing service. Here are Experienced doctor and cancer healing machine.",
+        "id": "4"
+      },
+      "picture": {
+        "thumbnail": "https://image.freepik.com/free-photo/young-woman-suffering-breast-cancer-talking-with-her-doctor_23-2148992311.jpg"
+      }
+    },
+    {
+      "name": "Liver Tarnsport",
+      "content": {
+        "description": "We providence patients to the world class Liver transport service. Here are Experienced doctor and liver healing machine. We will ensure how to patients healed early.",
+        "id": "5"
+      },
+      "picture": {
+        "thumbnail": "https://image.freepik.com/free-photo/doctor-standing-with-folder-stethoscope_1291-16.jpg?1"
+      }
+    },
+    {
+      "name": "Kidney Tarnsport",
+      "content": {
+        "description": "We providence patients to the world class kidney transport service. Here are Experienced doctor and kidney healing machine. We will ensure how to patients healed early.",
+        "id": "6"
+      },
+      "picture": {
+        "thumbnail": "https://image.freepik.com/free-photo/lumbar-pain_1155-10.jpg"
+      }
+    }
+  ]
+}

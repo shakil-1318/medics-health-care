@@ -1,0 +1,77 @@
+.categories{
+    overflow-x: hidden;
+}
+.single-categorie{
+    text-align: center;
+    background-color: #EFF3F2;
+    padding: 10px 5px;
+}
+.single-categorie .fas{
+    font-size: 50px;
+    background-color: #478ec0;
+    color: white;
+    padding: 20px;
+    border-radius: 100%;
+    transition: .4s;
+}
+.single-categorie .fas:hover{
+    background-color: black;
+}
+.single-categorie h3{
+    color: rgb(107, 104, 104);
+}
+.single-categorie h4{
+    color: rgb(31, 30, 30);
+    font-weight: 800;
+}
+.single-service{
+    text-align: center;
+    background-color: #1d213e;
+    color: white;
+    padding: 5px 2px;
+}
+.single-service .fas{
+    font-size: 50px;
+    background-color: #478ec0;
+    color: white;
+    padding: 20px;
+    border-radius: 100%;
+    transition: .4s;
+}
+.single-service .fas:hover{
+    background-color: black;
+}
+
+.welcome-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.welcome-section .welcome-content h2{
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.welcome-section .welcome-content p{
+    font-size: 20px;
+    color: rgba(128, 119, 119, 0.788);
+    margin-bottom: 25px;
+}
+.welcome-icon .fas{
+    color: rgb(16, 138, 214);
+    font-size: 30px;
+}
+.welcome-btn{
+    border: none;
+    padding: 20px 30px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0 rgb(24, 5, 1);
+  transition: ease-out 0.5s;
+}
+.welcome-btn:hover{
+    box-shadow: inset 168px 0 0 0 tomato;
+    border-radius: 5px;
+}

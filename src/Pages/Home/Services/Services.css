@@ -1,0 +1,12 @@
+.services-section .service-content{
+    text-align: center;
+    margin-top: 70px ;
+}
+.service-content h5{
+    color: turquoise;
+}
+.service-content h3{
+    color: rgb(3, 3, 3);
+    font-weight: 800;
+    font-size: 25px;
+}

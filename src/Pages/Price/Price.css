@@ -1,0 +1,13 @@
+.price-content h3{
+    color: purple;
+}
+.price-content h1{
+    font-weight: 800;
+}
+ .cart{
+     
+    padding: 30px 20px;
+}
+.cart-body .btn{
+    background-color: lightcoral;
+}

@@ -1,0 +1,10 @@
+.about-content{
+    margin: 50px;
+    text-align: center;
+}
+.about-content h4{
+    color: purple;
+}
+.about-content h1{
+    font-weight: 800;
+}

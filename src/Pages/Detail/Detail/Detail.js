@@ -31,7 +31,7 @@ const Detail = () => {
     return (
 
         <>
-            <div className="row m-5 d-flex justify-content-center align-items-center">
+            <div className="row mt-5 d-flex justify-content-center align-items-center">
                 <Card style={{ width: '18rem' }}>
                     <Card.Img width='100' variant="top" src={singleDetail?.picture?.thumbnail} />
                     <Card.Body>

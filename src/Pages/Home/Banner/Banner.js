@@ -92,21 +92,21 @@ const Banner = () => {
                             <div className="col-lg-6">
                                 <div>
                                     <h5><span className='welcome-icon'><i class="fas fa-file-medical"></i></span> We're Certified</h5>
-                                    <p>Lorem ipsu free dolor sit amet consectetur notted Ipsum available</p>
+                                    <p>Our health care will give you much coopertaion and trusted certificate.</p>
                                 </div>
                                 <div>
                                     <h5><span className='welcome-icon'><i class="fas fa-clinic-medical"></i></span> Years Experience</h5>
-                                    <p>Lorem ipsu free dolor sit amet consectetur notted Ipsum available</p>
+                                    <p>Our health care will give you much coopertaion and latest healing machine.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div>
                                     <h5><span className='welcome-icon'><i class="fas fa-stethoscope"></i></span> Latest Technology</h5>
-                                    <p>Lorem ipsu free dolor sit amet consectetur notted Ipsum available</p>
+                                    <p>Our health care have lot of experiences people doctor, nurse and stuff.</p>
                                 </div>
                                 <did>
                                     <h5><span className='welcome-icon'><i class="fas fa-capsules"></i></span> 100% Safe & Trusted</h5>
-                                    <p>Lorem ipsu free dolor sit amet consectetur notted Ipsum available</p>
+                                    <p>We will ensure to patients how to 100% safe in our health care.</p>
                                 </did>
                             </div>
                         </div>

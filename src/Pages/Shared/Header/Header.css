@@ -1,0 +1,10 @@
+.navbar{
+    background-color: rgb(106, 6, 199);
+}
+.nav-menu{
+    color: white;
+    font-size: 20px;
+}
+.nav-menu:hover{
+    color: rgb(14, 206, 240);
+}

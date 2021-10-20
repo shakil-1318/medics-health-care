@@ -4,6 +4,7 @@
 .nav-menu{
     color: white;
     font-size: 20px;
+    margin-right: 10px;
 }
 .nav-menu:hover{
     color: rgb(14, 206, 240);

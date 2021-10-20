@@ -42,16 +42,18 @@ const Registration = () => {
                         <Col sm={{ span: 10, offset: 2 }}>
                             <p className='text-danger'>{error}</p>
                             <Button type="submit">Register</Button>
+
+
                         </Col>
                     </Form.Group>
                 </Form>
                 <div className='text-center'>
                     <p>Already have an account? <Link to='/login'>Login</Link> </p>
                     <div>--------------or use one of these options-----------</div>
-                    <button
+                    <Button
                         onClick={signInUsingGoogle}
-                        className="btn-regular mt-3"
-                    >Google Sign In</button>
+                        variant="success"
+                    >Google Sign In</Button>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, updateProfile } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, updateProfile, sendPasswordResetEmail } from "firebase/auth";
 import { useEffect, useState } from "react";
 import initializeAuthentication from "../Pages/Login/Firebase/Firebase.init";
 
@@ -32,6 +32,7 @@ const useFirebase = () => {
         const unsubscribed = onAuthStateChanged(auth, user => {
             if (user) {
                 setUser(user);
+
             }
             else {
                 setUser({});
@@ -66,6 +67,7 @@ const useFirebase = () => {
     // registration form
     const handleRegistration = e => {
         e.preventDefault();
+
         if (password.length < 6) {
             setError('Password must be at least 6 charecter')
             return;
@@ -76,11 +78,11 @@ const useFirebase = () => {
         }
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
-                // setUser(result.user);
-                // setEmail(result.user);
                 setError('');
                 verifyEmail();
                 setUserName();
+                window.location.reload();
+                window.location = '/home';
             })
             .catch(error => {
                 setError(error.message)
@@ -91,6 +93,7 @@ const useFirebase = () => {
     // login form
     const loginForm = (e) => {
         e.preventDefault();
+
         if (password.length < 6) {
             setError('Password must be at least 6 charecter')
             return;
@@ -101,8 +104,9 @@ const useFirebase = () => {
         }
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
-                // setPassword(result.user);
                 setError('');
+                window.location.reload();
+                window.location = '/home';
             })
             .catch(error => {
                 setError(error.message)

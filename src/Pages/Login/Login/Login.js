@@ -9,7 +9,7 @@ import useAuth from '../../../hooks/useAuth';
 const Login = () => {
     const { signInUsingGoogle, loginForm, handleEmailChange, handlePasswordChange, error } = useAuth();
     const location = useLocation();
-    const history = useHistory()
+    const history = useHistory();
     const redirect_url = location.state?.from || '/home'
 
     const handleGoogleLogin = () => {
@@ -45,16 +45,17 @@ const Login = () => {
                         <Col sm={{ span: 10, offset: 2 }}>
                             <p className='text-danger'>{error}</p>
                             <Button type="submit">Sign in</Button>
+
                         </Col>
                     </Form.Group>
                 </Form>
                 <div className='text-center'>
                     <p>create new account <Link to='/registration'>Registration</Link> </p>
                     <div>--------------or use one of these options-----------</div><br />
-                    <button
+                    <Button
                         onClick={handleGoogleLogin}
-                        className="btn-regular"
-                    >Google Sign In</button>
+                        variant="success"
+                    >Google Sign In</Button>
                 </div>
             </div>
             <Footer></Footer>
